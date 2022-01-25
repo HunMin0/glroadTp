@@ -3,6 +3,8 @@
 <v-container fluid class="ma-0 pa-0" fill-height>
   <v-row>
     <v-col>
+
+      <Menu ref="menu" />
       <!-- 메인비쥬얼 -->
       <v-carousel
           fullscreen
@@ -21,7 +23,6 @@
           <v-col>
             <!-- 오버레이영역 -->
             <div class="overlayMam">
-            <Menu ref="menu" />
               <!-- 비쥬얼 텍스트 -->
               <v-row justify="center" align="center" class="setHeight">
                 <v-spacer/>

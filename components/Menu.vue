@@ -26,7 +26,7 @@
 
         <div class="quickNav">
           <v-app-bar-nav-icon @click="drawer = true" color="#fff" large ></v-app-bar-nav-icon>
-          <v-navigation-drawer
+          <v-navigation-drawer class="quickNavInner"
             width="50%"
             v-model="drawer"
             absolute
@@ -109,4 +109,6 @@
 #nav {height: 48px; text-align: right;}
 .navLogo {margin-bottom: 10px;}
 .v-list-item__title {text-align: left;font-size: 1rem;}
+.hot_line {position: absolute; top:0; left: 0;right:0; z-index: 99;}
+.quickNavInner { position: fixed; z-index:99; top:0; right:0; bottom:0; }
 </style>

@@ -26,12 +26,41 @@
         </v-stepper-header>
         <v-stepper-items>
             <v-stepper-content step="1">
-                <v-card
-                    class="ma-0 pa-0"
-                    color="#ddd"
-                    height="400px"
-                    flat
-                ><v-img src="images/about/about1.png"></v-img></v-card>
+                <v-row>
+                  <v-col cols="7">
+                    <div class="cardImg">
+                      <v-img src="/date.png" contain max-height="360"/>
+                    </div>
+                  </v-col>
+                  <v-col cols="5">
+                   <v-card class="mx-auto">
+                    <v-list-item>
+                      <v-list-item-content>
+                        <v-card-title>ABOUT US</v-card-title>
+                        <v-card-text>실시간 서버 공간 정보 검색</v-card-text>
+                        <v-card-subtitle>아래 세 가지 정보만을 입력 하여 서버공간의 스케줄 및 최저가를 빠르게 검색 할 수 있습니다.</v-card-subtitle>
+                        <v-card-text>
+                          <ul>
+                            <li>이동하고자 하는 로컬 호스트</li>
+                            <li>이동하고자 하는 로컬 호스트</li>
+                            <li>이동하고자 하는 로컬 호스트</li>
+                          </ul>
+                        </v-card-text>
+                        <v-card-actions>
+                          <v-btn
+                            outlined
+                            text
+                          >
+                            Read More
+                          </v-btn>
+                        </v-card-actions>
+                      </v-list-item-content>
+                    </v-list-item>
+
+
+                    </v-card>
+                  </v-col>
+                </v-row>
             </v-stepper-content>
             <v-stepper-content step="2">
                 <v-card
@@ -65,6 +94,22 @@
 <script>
 export default {
   name: 'AboutSlid',
+  data: () => ({
+    items: [
+      {
+        mark: 'About US',
+        title: '실시간 서버 공간 정보 검색',
+        subject: '아래 세 가지 정보만을 입력 하여 서버공간의 스케줄 및 최저가를 빠르게 검색 할 수 있습니다.',
+        sevice: '서버를 제공 하고자 하는 일자',
+      },
+      {
+        mark: 'About US',
+        title: '실시간 서버 공간 정보 검색2',
+        subject: '2아래 세 가지 정보만을 입력 하여 서버공간의 스케줄 및 최저가를 빠르게 검색 할 수 있습니다.',
+        sevice: '2서버를 제공 하고자 하는 일자',
+      },
+    ],
+  }),
 }
 </script>
 
@@ -75,5 +120,7 @@ export default {
   .aboutTitle {text-align: center; padding: 60px 0 40px;}
   .aboutTitle p:first-child {font-size: 26px; font-weight: 600;}
   .aboutTitle p:last-child {line-height: 30px}
+
+  .cardImg{border: 1px solid #ddd; padding: 30px; max-height: 416px;}
 
 </style>

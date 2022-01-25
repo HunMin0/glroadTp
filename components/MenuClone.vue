@@ -107,7 +107,7 @@
 .navLogo {margin-bottom: 10px;}
 .v-list-item__title {text-align: left;font-size: 1rem;}
 
-.at header{animation: wobble 0.5s; border-bottom: 1px solid #ededed!important;}
+.at header{animation: wobble 0.5s; border-bottom: 1px solid #ededed!important; z-index: 9999;}
 @keyframes wobble {
   0% { opacity:0; transform: translateY(-50px); }
   100% { opacity:1; transform: translateY(0px); }
