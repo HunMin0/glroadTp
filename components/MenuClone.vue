@@ -65,11 +65,11 @@
       group: null,
       absolute: true,
       links: [
-        {tab: 'home', href: '/', icon:'mdi-inbox'},
-        {tab: 'subpage1', href: '/temple', icon:'mdi-star'},
-        {tab: 'subpage2', href: '/#', icon:'mdi-send'},
-        {tab: 'subpage3', href: '/#', icon:'mdi-send'},
-        {tab: 'subpage4', href: '/#', icon:'mdi-send'},
+        {tab: 'HOME', href: '/', icon:'mdi-inbox'},
+        {tab: 'ABOUTUS', href: '/temple', icon:'mdi-star'},
+        {tab: 'BUSINESS', href: '/#', icon:'mdi-send'},
+        {tab: 'PRODUCT', href: '/#', icon:'mdi-send'},
+        {tab: 'SUPPORT', href: '/#', icon:'mdi-send'},
       ],
     }),
 

@@ -1,3 +1,4 @@
+a {text-decoration: none;}
 .resize {margin: 0 10px;}
 .hot_line {border-bottom: 1px solid rgb(239 239 239 / 15%);}
 .setHeight {height :100%};
@@ -5,14 +6,22 @@
 .openMenu {display: block;}
 .quickNav {display: none;}
 
+.sMargin {margin-top: 70px;}
+.PromotionTitle {padding: 80px 0 40px;}
+
 @media (min-width: 605px){
+  .sMargin {margin-top: 70px;}
+  .PromotionTitle {padding: 80px 0 40px;}
   .quickNav {display: none;}
   .openMenu {display: block;}
   .v-btn--fab.v-size--default {transition: all 1s;}
 }
 @media (max-width: 960px){
+  .sMargin {margin-top: 10px;}
+  .PromotionTitle {padding: 30px 0 20px;}
   .quickNav {display: block; width: 100%; text-align: right; margin-right: 50px;}
   .openMenu {display: none;}
   .v-btn--fab.v-size--default {height: 36px!important; width: 36px!important; transition: all 1s;}
+
 }
 

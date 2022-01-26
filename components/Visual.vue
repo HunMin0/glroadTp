@@ -34,7 +34,6 @@
                       <p class="slidSub" v-text="item.lastText"></p>
                     </div>
                     <div class="visualMore animate__animated animate__fadeIn animate__delay-1s" title="더보기"><router-link :to="item.link">더보기</router-link></div>
-
                   </v-col>
                 <v-spacer/>
               </v-row>
