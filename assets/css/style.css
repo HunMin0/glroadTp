@@ -7,7 +7,17 @@ a {text-decoration: none;}
 .quickNav {display: none;}
 
 .sMargin {margin-top: 70px;}
-.PromotionTitle {padding: 80px 0 40px;}
+
+.Promotion{background: #fafafc; padding: 30px 0 110px;}
+.PromotionTitle{width: 100%; text-align: center; padding: 80px 0 40px;}
+.PromotionTitle span {color:#72c09f}
+.PromotionTitle p {margin-top: 10px;}
+
+#tagetSet .v-timeline-item__dot{position: relative; left: 0;}
+#tagetSet .v-timeline-item__dot::before{content: '';width: 10px;height: 10px;top: 7px;left: 7px;background: #fafafc;position: absolute;border-radius: 50%;}
+
+.shadow .v-timeline-item__dot{box-shadow: 0 0 24px rgb(0 196 115 / 60%);}
+.shadowNo .v-timeline-item__dot{box-shadow: none; }
 
 @media (min-width: 605px){
   .sMargin {margin-top: 70px;}

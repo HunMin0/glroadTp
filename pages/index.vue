@@ -55,29 +55,11 @@
 
     <v-container fluid class="pa-0">
       <v-row>
-        <v-col>
+        <v-col class="pa-0">
           <Footer />
         </v-col>
       </v-row>
     </v-container>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
   </div>
 
 </template>

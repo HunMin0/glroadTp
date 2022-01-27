@@ -48,12 +48,7 @@
                         </ul>
                       </v-card-text>
                       <v-card-actions>
-                        <v-btn
-                          depressed
-                          color="accent"
-                          width="130px"
-                          height="50px"
-                        >
+                        <v-btn depressed color="accent" width="130px" height="50px">
                           Read More
                         </v-btn>
                       </v-card-actions>
@@ -87,12 +82,7 @@
                         </ul>
                       </v-card-text>
                       <v-card-actions>
-                        <v-btn
-                          depressed
-                          color="accent"
-                          width="130px"
-                          height="50px"
-                        >
+                        <v-btn depressed color="accent" width="130px" height="50px">
                           Read More
                         </v-btn>
                       </v-card-actions>
@@ -126,12 +116,7 @@
                         </ul>
                       </v-card-text>
                       <v-card-actions>
-                        <v-btn
-                          depressed
-                          color="accent"
-                          width="130px"
-                          height="50px"
-                        >
+                        <v-btn depressed color="accent" width="130px" height="50px">
                           Read More
                         </v-btn>
                       </v-card-actions>
@@ -165,12 +150,7 @@
                         </ul>
                       </v-card-text>
                       <v-card-actions>
-                        <v-btn
-                          depressed
-                          color="accent"
-                          width="130px"
-                          height="50px"
-                        >
+                        <v-btn depressed color="accent" width="130px" height="50px">
                           Read More
                         </v-btn>
                       </v-card-actions>
@@ -203,7 +183,6 @@ export default {
   .aboutTitle p:first-child {font-size: 1.625rem; font-weight: 600;}
   .aboutTitle p:last-child {line-height: 30px}
   .aboutTitle span {color: #72c09f;}
-
   .cardImg{border: 1px solid #ddd; padding: 30px; max-height: 416px;}
   .fontStyleTitle{color: #72c09f; font-size: 0.938rem;}
   .fontStyleTitle::after{content: ' '; width: 30px; height: 2px; top: 33px; position: absolute; left: 114px; background: #72c09f;}
@@ -217,11 +196,4 @@ export default {
   .v-stepper__items{margin-top: 10px;}
   .v-card__actions{padding: 16px;}
   .v-application .accent{background-color: #72c09f !important; border-color: #72c09f !important;}
-
-  @media (min-width: 605px){
-
-  }
-  @media (max-width: 960px){
-
-  }
 </style>

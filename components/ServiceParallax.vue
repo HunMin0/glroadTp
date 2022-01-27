@@ -1,18 +1,9 @@
 <template>
   <div class="ServiceParallax">
-    <v-parallax
-      dark
-      src='/parallax.jpg'
-       height="400"
-    >
+    <v-parallax dark src='/parallax.jpg' height="400">
      <v-container fluid>
-      <v-row
-        align="center"
-        justify="center"
-      >
-        <v-col
-          cols="5" xs="5" sm="5" md="2" lg="2" xl="2"
-          class="text-center"
+      <v-row align="center" justify="center">
+        <v-col cols="5" xs="5" sm="5" md="2" lg="2" xl="2" class="text-center"
           v-for="(item,i) in items"
           :key="i"
         >
@@ -60,7 +51,6 @@ export default {
 <style scoped>
   .textStyle{margin: 10px 0; font-size: 2.7rem;}
   .subheading{font-size: 1rem; font-weight: 400;}
-
   @media (min-width: 605px){
     .textStyle{font-size: 2.7rem;}
   }

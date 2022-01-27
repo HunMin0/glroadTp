@@ -5,51 +5,26 @@
       <p>기업의 정보를 안전하게 관리하면서도 쉽고 빠르게 소통하세요.</p>
     </div>
      <v-container fluid>
-      <v-row
-          align="center"
-          justify="center"
-        >
-        <v-col
-          cols="10" xs="10" sm="10" md="10" lg="3" xl="2"
-          class="text-center"
+      <v-row align="center" justify="center">
+        <v-col cols="10" xs="10" sm="10" md="10" lg="3" xl="2" class="text-center"
           v-for="(item,i) in items"
           :key="i"
         >
-          <v-card
-            class="cardStyle"
-            elevation="0"
-            max-height="494"
-          >
+          <v-card class="cardStyle" elevation="0" max-height="494">
             <v-card-text>
               <div>
-                <v-img
-                :src="item.imgIcon"
-                :height="100"
-                contain
-              ></v-img>
+                <v-img :src="item.imgIcon" :height="100" contain></v-img>
               </div>
-              <p class="firstTitle">
-                {{item.firstTitle}}
-              </p>
-              <p class="subject">
-                {{item.subject}}
-              </p>
-              <div class="subject">
-                {{item.lastText}}
-              </div>
+              <p class="firstTitle">{{item.firstTitle}}</p>
+              <p class="subject">{{item.subject}}</p>
+              <div class="subject">{{item.lastText}}</div>
             </v-card-text>
           </v-card>
         </v-col>
       </v-row>
      </v-container>
-     <v-row
-       align="center"
-       justify="center"
-      >
-       <v-col
-          cols="10" xs="10" sm="10" md="10" lg="9" xl="6"
-          class="text-right"
-        >
+     <v-row align="center" justify="center">
+       <v-col cols="10" xs="10" sm="10" md="10" lg="9" xl="6" class="text-right">
           <router-link to="/"><p class="lastArea" title="자세히보기">NUXT에 대해 더 알아보기 <v-icon>mdi-arrow-top-right</v-icon></p></router-link>
         </v-col>
      </v-row>
@@ -85,18 +60,13 @@ export default {
 </script>
 
 <style scoped>
-  .Promotion{background: #fafafc; padding: 30px 0 110px;}
-  .PromotionTitle{width: 100%; text-align: center;}
-  .PromotionTitle span {color:#72c09f}
   .cardStyle{box-shadow: 0 14px 24px rgb(0 18 47 / 8%)!important; border-radius: 24px; padding: 30px 16px;}
   .firstTitle{font-weight: 700; font-size: 1.60rem; line-height: 42px; margin: 24px 0;}
   .subject{font-size: 1rem; line-height: 30px; text-align: center; margin-top: 20px;}
   .lastArea{font-weight: 400; font-size: 1.110rem; line-height: 20px; color: #a2a2a2; margin: 25px 10px 0 0;}
   .lastArea i {color: #a2a2a2;}
-
   @media (min-width: 605px){
     .firstTitle{font-size: 1.60rem;}
-
   }
   @media (max-width: 960px){
     .firstTitle{font-size: 1.40rem;}
