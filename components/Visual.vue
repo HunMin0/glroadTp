@@ -6,6 +6,7 @@
         <!-- 메인비쥬얼 -->
         <v-carousel
           fullscreen
+          cycle
           height="calc(100vh - 0px)"
           hide-delimiter-background
           show-arrows-on-hover
