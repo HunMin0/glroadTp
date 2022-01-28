@@ -16,7 +16,7 @@
       <v-app-bar-nav-icon @click="drawer = true" color="#333" large></v-app-bar-nav-icon>
     </div>
     </v-app-bar>
-    <v-navigation-drawer width="50%" v-model="drawer" absolute temporary right style="position:fixed">
+    <v-navigation-drawer width="50%" v-model="drawer" absolute temporary right style="position:fixed; z-index:9999">
       <v-list flat>
         <v-list-item-group v-model="group" active-class="grey lighten-5">
           <v-list-item class="navLogo"><Logo2 /></v-list-item>
