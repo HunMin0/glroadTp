@@ -8,7 +8,7 @@
 export default {
   name: 'Logo',
   data: () => ({
-    logoName:'NUXT HOME',
+    logoName:'GLROAD HOME',
   }),
 }
 </script>

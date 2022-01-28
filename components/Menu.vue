@@ -27,7 +27,7 @@
                   v-model="group"
                   active-class="grey lighten-5"
                 >
-                  <v-list-item class="navLogo"><NuxtLogo2 /></v-list-item>
+                  <v-list-item class="navLogo"><Logo2 /></v-list-item>
                   <v-list-item
                     v-for="link in links"
                     :key="link.tab"
