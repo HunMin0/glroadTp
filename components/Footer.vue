@@ -19,9 +19,9 @@
       <v-col cols="12" xs="12" sm="12" md="12" lg="12" xl="8">
         <div class="footer">
           <ul class="pa-0">
-            <li><!--<v-img height="64px" src="/logo2.png" contain></v-img>-->로고</li>
-            <li>대표 : 홍길동&emsp;<span>I</span>&emsp;주소 : 대전시 서구 둔산남로11-1(둔산동,NUXT빌딩)&emsp;<span>I</span>&emsp;TEL : 042-123-4567&emsp;<span>I</span>&emsp;Fax : 042-123-4567&emsp;<span>I</span>&emsp;E-Mail : custorm_cs@gmail.com
-              <br/><span>Copyright © 2022 NUXTSOFT All rights reserved.</span>
+            <li><v-img height="64px" src="/logo2.png" contain></v-img></li>
+            <li>대표 : 홍길동&emsp;<span>I</span>&emsp;주소 : 대전시 서구 둔산남로11-1(둔산동,GLROAD빌딩)&emsp;<span>I</span>&emsp;TEL : 042-123-4567&emsp;<span>I</span>&emsp;Fax : 042-123-4567&emsp;<span>I</span>&emsp;E-Mail : custorm_cs@gmail.com
+              <br/><span>Copyright © 2022 GLROAD All rights reserved.</span>
             </li>
           </ul>
         </div>

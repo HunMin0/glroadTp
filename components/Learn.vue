@@ -1,7 +1,7 @@
 <template>
   <div class="Learn">
     <div class="PromotionTitle">
-      <h1>NUXT <span>서비스</span> 더 알아보기</h1>
+      <h1>GLROAD <span>서비스</span> 더 알아보기</h1>
       <p>기업의 정보를 안전하게 관리하면서도 쉽고 빠르게 소통하세요.</p>
     </div>
      <v-container>
@@ -13,8 +13,8 @@
                 <router-link to="/">
                   <v-img class="imgBox" height="250" src="/cat-1.jpg"></v-img>
                   <div class="imgTitle">
-                    <h3>서비스 비전</h3>
-                    <p>서비스 자원을 이동하여 새로운 경제를 창출합니다.</p>
+                    <h3>GLROAD 비전</h3>
+                    <p>글로벌자원을 이동하여 새로운 경제를 창출합니다.</p>
                   </div>
                 </router-link>
               </div>
@@ -27,7 +27,7 @@
                   <v-img class="imgBox" height="250" src="/cat-2.jpg"></v-img>
                   <div class="imgTitle">
                     <h3>인사말</h3>
-                    <p>모든 세상의 움직임은 네트워크로 통합니다.</p>
+                    <p>모든 세상의 움직임은 물류로 통합니다.</p>
                   </div>
                   </router-link>
               </div>
@@ -52,8 +52,8 @@
                 <router-link to="/">
                   <v-img class="imgBox" src="/cat-4.jpg"></v-img>
                   <div class="imgTitle">
-                    <h3>서비스 소개</h3>
-                    <p>NUXT는 어떤 서비스일까요?</p>
+                    <h3>GLROAD 소개</h3>
+                    <p>GLROAD는 어떤 서비스일까요?</p>
                   </div>
                 </router-link>
               </div>

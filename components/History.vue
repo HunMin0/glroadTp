@@ -5,7 +5,7 @@
         <v-col cols="10" xs="10" sm="8" md="3" lg="3" xl="3">
           <div class="HistoryTitle">
             <p>History</p>
-            <h1>끊임없는 도전정신과 멈추지 않는 열정이 가득한 NUXT</h1>
+            <h1>끊임없는 도전정신과 멈추지 않는 열정이 가득한 GLROAD</h1>
           </div>
         </v-col>
         <v-col cols="12" xs="12" sm="8" md="5" lg="5" xl="5" class="timeLineSet">
@@ -41,25 +41,25 @@ export default {
         atclass: 'shadow',
         color: '#72c09f',
         year: '2022',
-        subject: '독일 히든챔피언 한국지사 글로벌 기업매칭 프로그램 진행',
+        subject: '글로드 법인설립 글로드 서비스 정식 론칭',
       },
       {
         atclass: 'shadowNo',
         color: '#e0e0e0',
         year: '2021',
-        subject: '2독일 히든챔피언 한국지사 글로벌 기업매칭 프로그램 진행',
+        subject: '글로드 상표 등록 글로드 실시간 LCL 가격 검색 시스템 특허 등록완료 VC벤쳐투자 확정',
       },
       {
         atclass: 'shadowNo',
         color: '#e0e0e0',
         year: '2020',
-        subject: '3독일 히든챔피언 한국지사 글로벌 기업매칭 프로그램 진행',
+        subject: '영국 H사 (식자재 유통 6,000억) 기업매칭 업무 진행 20여개 진행 일본 H사( 1조 1,000억) LCL 화물 관련 업무진행 LCL화물 빈공간 등록 및 거래 실시간 플랫폼 특허 출원 글로드플랫폼 개발 진행',
       },
       {
         atclass: 'shadowNo',
         color: '#e0e0e0',
         year: '2019',
-        subject: '4독일 히든챔피언 한국지사 글로벌 기업매칭 프로그램 진행',
+        subject: '독일 히든챔피언 한국지사 글로벌 기업매칭 프로그램 진행',
       },
     ],
   }),

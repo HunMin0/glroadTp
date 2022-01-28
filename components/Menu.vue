@@ -2,7 +2,7 @@
   <v-container fluid class="hot_line">
     <v-row><v-spacer/>
       <v-col cols="8" xs="8" sm="8" md="2" lg="3" xl="3">
-        <NuxtLogo />
+        <Logo />
       </v-col>
       <v-col cols="2" xs="2" sm="2" md="9" lg="7" xl="7">
         <div id="nav">
@@ -60,7 +60,7 @@
       absolute: true,
       links: [
         {tab: 'HOME', href: '/', icon:'mdi-inbox'},
-        {tab: 'ABOUTUS', href: '/temple', icon:'mdi-star'},
+        {tab: 'ABOUT US', href: '/temple', icon:'mdi-star'},
         {tab: 'BUSINESS', href: '/#', icon:'mdi-send'},
         {tab: 'PRODUCT', href: '/#', icon:'mdi-send'},
         {tab: 'SUPPORT', href: '/#', icon:'mdi-send'},

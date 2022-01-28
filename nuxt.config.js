@@ -5,8 +5,8 @@ export default {
   ssr: false,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - nuxtEx1',
-    title: 'nuxtEx1',
+    titleTemplate: '%s - 수출플랫폼',
+    title: 'GLROAD',
     htmlAttrs: {
       lang: 'en'
     },

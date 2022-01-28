@@ -25,22 +25,22 @@ export default {
       {
         icon: 'mdi-package-variant-closed',
         firstTitle: '2만건+',
-        subject: 'NUXT 서버진행건수'
+        subject: 'GLROAD 수출진행건수'
       },
        {
         icon: 'mdi-database',
         firstTitle: '800억+',
-        subject: '매출 규모'
+        subject: '수출 규모'
       },
        {
         icon: 'mdi-timetable',
         firstTitle: '3일+',
-        subject: '평균 설치시간'
+        subject: '평균 업무시간'
       },
        {
         icon: 'mdi-timer',
         firstTitle: '30분+',
-        subject: '평균 접속시간'
+        subject: '평균 매칭소요시간'
       },
     ],
   }),

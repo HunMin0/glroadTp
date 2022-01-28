@@ -1,7 +1,7 @@
 <template>
   <div class="at" v-show="visible">
     <v-app-bar app color="white" flat inverted-scroll >
-      <div id="cloneLogo"><NuxtLogo2 /></div>
+      <div id="cloneLogo"><Logo2 /></div>
       <v-tabs centered class="ml-n9 openMenu" color="#111 darken-1" background-color="transparent">
       <v-tab v-bind:title="link.tab" class="resize"
         v-for="link in links"
@@ -48,7 +48,7 @@
       absolute: true,
       links: [
         {tab: 'HOME', href: '/', icon:'mdi-inbox'},
-        {tab: 'ABOUTUS', href: '/temple', icon:'mdi-star'},
+        {tab: 'ABOUT US', href: '/temple', icon:'mdi-star'},
         {tab: 'BUSINESS', href: '/#', icon:'mdi-send'},
         {tab: 'PRODUCT', href: '/#', icon:'mdi-send'},
         {tab: 'SUPPORT', href: '/#', icon:'mdi-send'},
@@ -78,7 +78,7 @@
 </script>
 
 <style scoped>
-#cloneLogo {width: 300px; margin-left: 50px;}
+#cloneLogo {width: 30%; margin-left: 350px;}
 .theme--light.v-tabs .v-tab:hover::before {opacity: 0;}
 .theme--light.v-tabs .v-tab--active:focus::before {opacity: 0;}
 .v-tab:hover  {color: #333 !important;}
@@ -91,4 +91,10 @@
   0% { opacity:0; transform: translateY(-50px); }
   100% { opacity:1; transform: translateY(0px); }
 }
+@media (max-width: 2000px){
+    #cloneLogo {margin-left: 50px;}
+  }
+  @media (max-width: 960px){
+    #cloneLogo {margin-left: 0;}
+  }
 </style>

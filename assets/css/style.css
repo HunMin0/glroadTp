@@ -21,6 +21,8 @@ a {text-decoration: none;}
 
 .qnaSet .v-text-field__details{display: none;}
 
+.logo .v-image__image{background-position: unset!important;}
+
 @media (min-width: 605px){
   .sMargin {margin-top: 70px;}
   .PromotionTitle {padding: 80px 0 40px;}
@@ -31,7 +33,7 @@ a {text-decoration: none;}
 @media (max-width: 960px){
   .sMargin {margin-top: 10px;}
   .PromotionTitle {padding: 30px 0 20px;}
-  .quickNav {display: block; width: 100%; text-align: right; margin-right: 50px;}
+  .quickNav {display: block; width: 100%; text-align: right; }
   .openMenu {display: none;}
   .v-btn--fab.v-size--default {height: 36px!important; width: 36px!important; transition: all 1s;}
 

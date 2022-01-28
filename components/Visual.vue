@@ -25,7 +25,7 @@
                   <v-spacer/>
                     <v-col cols="10" xs="10" sm="8" md="8" lg="10" xl="l0">
                       <div class="textTitle animate__animated animate__fadeInRight fadeInRight">
-                        <p class="">NUXT ANIMEJS</p>
+                        <p class="">GLROAD SERVICE</p>
                         <p class="slidTitle" v-text="item.fristText"></p>
                         <p class="slidSub" v-text="item.lastText"></p>
                       </div>
@@ -64,13 +64,13 @@ export default {
     items: [
       {
         src: '/bg02.jpg',
-        fristText: '간편하고 빠른 VUE서비스 NUXT와 함께',
+        fristText: '간편하고 빠른 수출플랫폼 GLROAD와 함께',
         lastText: '더 낮은 곳을 향해 세상의 가치를 이동합니다.',
         link: '/'
       },
       {
         src: '/bg01.jpg',
-        fristText: '간편하고 빠른 VUE서비스 NUXT와 함께',
+       fristText: '간편하고 빠른 수출플랫폼 GLROAD와 함께',
         lastText: '더 낮은 곳을 향해 세상의 가치를 이동합니다.',
         link: '/'
       },

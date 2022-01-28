@@ -1,27 +1,27 @@
 <template>
   <div class="aboutSlid">
     <div class="aboutTitle">
-      <p>「누구나 쉽게 수출 할 수 있는 <span>디지털 NUXT 플랫폼</span>」</p>
-      <p>필요한 공간을 검색하고, 실시간 NUXT 스케줄과 서버정보를 체크하고,<br/>
+      <p>「누구나 쉽게 수출 할 수 있는 <span>디지털 수출 플랫폼</span>」</p>
+      <p>필요한 공간을 검색하고, 실시간 컨테이너 스케줄과 서버정보를 체크하고,<br/>
           이 모든 과정이 스마트하게 이루어집니다.<br/>
-          모바일에서 진행하는 나의 디지털 NUXT 파트너! NUXT</p>
+          모바일에서 진행하는 나의 디지털 수출 파트너! GLROAD</p>
     </div>
     <v-stepper non-linear flat alt-labels>
         <v-stepper-header>
             <v-stepper-step editable step="1" color="#72c09f" v-ripple="false">
-                서버검색
+                공간검색
             </v-stepper-step>
                 <v-divider></v-divider>
             <v-stepper-step editable step="2" color="#72c09f" v-ripple="false">
-                서버결정
+                구매결정
             </v-stepper-step>
                 <v-divider></v-divider>
             <v-stepper-step editable step="3" color="#72c09f" v-ripple="false">
-                서버셋팅
+                오페레이팅
             </v-stepper-step>
                 <v-divider></v-divider>
             <v-stepper-step editable step="4" color="#72c09f" v-ripple="false">
-                서버완료
+                수출완료
             </v-stepper-step>
         </v-stepper-header>
         <v-stepper-items>
@@ -38,13 +38,13 @@
                   <v-list-item>
                     <v-list-item-content>
                       <v-card-title class="fontStyleTitle">ABOUT US</v-card-title>
-                      <v-card-text class="fontStyleH1">실시간 서버 공간 정보 검색</v-card-text>
-                      <v-card-subtitle class="fontStyleH2">아래 세 가지 정보만을 입력 하여 서버공간의 <span>스케줄 및 최저가를 빠르게 검색</span> 할 수 있습니다.</v-card-subtitle>
+                      <v-card-text class="fontStyleH1">실시간 컨테이너 공간 정보 검색</v-card-text>
+                      <v-card-subtitle class="fontStyleH2">아래 세 가지 정보만을 입력 하여 소화물 컨테이너의 <span>스케줄 및 최저가를 빠르게 검색</span> 할 수 있습니다.</v-card-subtitle>
                       <v-card-text>
                         <ul class="listStyle">
-                          <li><v-icon dense>mdi-arrow-right-drop-circle-outline</v-icon> 이동하고자 하는 로컬 호스트</li>
-                          <li><v-icon dense>mdi-arrow-right-drop-circle-outline</v-icon> 이동하고자 하는 로컬 호스트</li>
-                          <li><v-icon dense>mdi-arrow-right-drop-circle-outline</v-icon> 이동하고자 하는 로컬 호스트</li>
+                          <li><v-icon dense>mdi-arrow-right-drop-circle-outline</v-icon> 수출하고자 하는 일자</li>
+                          <li><v-icon dense>mdi-arrow-right-drop-circle-outline</v-icon> 컨테이너 필요한 공간</li>
+                          <li><v-icon dense>mdi-arrow-right-drop-circle-outline</v-icon> 수출하는 나라 지정 입력</li>
                         </ul>
                       </v-card-text>
                       <v-card-actions>
@@ -64,7 +64,7 @@
               <v-row>
                <v-col cols="12" xs="12" sm="12" md="7" lg="7" xl="7">
                   <div class="cardImg">
-                    <v-img src="/date.png" contain max-height="360"/>
+                    <v-img src="/date02.png" contain max-height="360"/>
                   </div>
                 </v-col>
                 <v-col cols="12" xs="12" sm="12" md="5" lg="5" xl="5">
@@ -72,13 +72,13 @@
                   <v-list-item>
                     <v-list-item-content>
                       <v-card-title class="fontStyleTitle">ABOUT US</v-card-title>
-                      <v-card-text class="fontStyleH1">실시간 서버 공간 정보 검색</v-card-text>
-                      <v-card-subtitle class="fontStyleH2">아래 세 가지 정보만을 입력 하여 서버공간의 <span>스케줄 및 최저가를 빠르게 검색</span> 할 수 있습니다.</v-card-subtitle>
+                      <v-card-text class="fontStyleH1">스마트한 구매결정과 진행절차</v-card-text>
+                      <v-card-subtitle class="fontStyleH2">필요한 컨테이너 공간과 <span>가격정보, 픽업정보를 확인하고 가장 적합한 컨테이너</span>를 빠르게 계약하세요.</v-card-subtitle>
                       <v-card-text>
                         <ul class="listStyle">
-                          <li><v-icon dense>mdi-arrow-right-drop-circle-outline</v-icon> 이동하고자 하는 로컬 호스트</li>
-                          <li><v-icon dense>mdi-arrow-right-drop-circle-outline</v-icon> 이동하고자 하는 로컬 호스트</li>
-                          <li><v-icon dense>mdi-arrow-right-drop-circle-outline</v-icon> 이동하고자 하는 로컬 호스트</li>
+                          <li><v-icon dense>mdi-arrow-right-drop-circle-outline</v-icon> 가격별 조회 가능</li>
+                          <li><v-icon dense>mdi-arrow-right-drop-circle-outline</v-icon> 출발일자별 조회 가능</li>
+                          <li><v-icon dense>mdi-arrow-right-drop-circle-outline</v-icon> 수출문서 등록 및 대리신청</li>
                         </ul>
                       </v-card-text>
                       <v-card-actions>
@@ -98,7 +98,7 @@
               <v-row>
                 <v-col cols="12" xs="12" sm="12" md="7" lg="7" xl="7">
                   <div class="cardImg">
-                    <v-img src="/date.png" contain max-height="360"/>
+                    <v-img src="/date03.png" contain max-height="360"/>
                   </div>
                 </v-col>
                 <v-col cols="12" xs="12" sm="12" md="5" lg="5" xl="5">
@@ -106,13 +106,13 @@
                   <v-list-item>
                     <v-list-item-content>
                       <v-card-title class="fontStyleTitle">ABOUT US</v-card-title>
-                      <v-card-text class="fontStyleH1">실시간 서버 공간 정보 검색</v-card-text>
-                      <v-card-subtitle class="fontStyleH2">아래 세 가지 정보만을 입력 하여 서버공간의 <span>스케줄 및 최저가를 빠르게 검색</span> 할 수 있습니다.</v-card-subtitle>
+                      <v-card-text class="fontStyleH1">모든 일정을 자동으로 관리</v-card-text>
+                      <v-card-subtitle class="fontStyleH2">픽업 출발부터 도착까지 구매결정이후 <span>모든 수출진행 과정을 실시간으로 추적</span>하여 자동으로 관리합니다.</v-card-subtitle>
                       <v-card-text>
                         <ul class="listStyle">
-                          <li><v-icon dense>mdi-arrow-right-drop-circle-outline</v-icon> 이동하고자 하는 로컬 호스트</li>
-                          <li><v-icon dense>mdi-arrow-right-drop-circle-outline</v-icon> 이동하고자 하는 로컬 호스트</li>
-                          <li><v-icon dense>mdi-arrow-right-drop-circle-outline</v-icon> 이동하고자 하는 로컬 호스트</li>
+                          <li><v-icon dense>mdi-arrow-right-drop-circle-outline</v-icon> 픽업 출발/도착 알림</li>
+                          <li><v-icon dense>mdi-arrow-right-drop-circle-outline</v-icon> 창고입고 알림</li>
+                          <li><v-icon dense>mdi-arrow-right-drop-circle-outline</v-icon> 출항/도착 알림</li>
                         </ul>
                       </v-card-text>
                       <v-card-actions>
@@ -132,7 +132,7 @@
               <v-row>
                 <v-col cols="12" xs="12" sm="12" md="7" lg="7" xl="7">
                   <div class="cardImg">
-                    <v-img src="/date.png" contain max-height="360"/>
+                    <v-img src="/date04.png" contain max-height="360"/>
                   </div>
                 </v-col>
                 <v-col cols="12" xs="12" sm="12" md="5" lg="5" xl="5">
@@ -140,13 +140,13 @@
                   <v-list-item>
                     <v-list-item-content>
                       <v-card-title class="fontStyleTitle">ABOUT US</v-card-title>
-                      <v-card-text class="fontStyleH1">실시간 서버 공간 정보 검색</v-card-text>
-                      <v-card-subtitle class="fontStyleH2">아래 세 가지 정보만을 입력 하여 서버공간의 <span>스케줄 및 최저가를 빠르게 검색</span> 할 수 있습니다.</v-card-subtitle>
+                      <v-card-text class="fontStyleH1">소화물 수출이 더욱 쉬워집니다.</v-card-text>
+                      <v-card-subtitle class="fontStyleH2">수출완료까지 필요한 <span>모든과정을 모바일에서 원클릭으로 안전</span>하게 진행 하실 수 있습니다.</v-card-subtitle>
                       <v-card-text>
                         <ul class="listStyle">
-                          <li><v-icon dense>mdi-arrow-right-drop-circle-outline</v-icon> 이동하고자 하는 로컬 호스트</li>
-                          <li><v-icon dense>mdi-arrow-right-drop-circle-outline</v-icon> 이동하고자 하는 로컬 호스트</li>
-                          <li><v-icon dense>mdi-arrow-right-drop-circle-outline</v-icon> 이동하고자 하는 로컬 호스트</li>
+                          <li><v-icon dense>mdi-arrow-right-drop-circle-outline</v-icon> 인증된 포워딩 업체</li>
+                          <li><v-icon dense>mdi-arrow-right-drop-circle-outline</v-icon> 단계별 진행상황 모바일 푸시알림</li>
+                          <li><v-icon dense>mdi-arrow-right-drop-circle-outline</v-icon> 에스크로 결제 후 후불 집행 가능</li>
                         </ul>
                       </v-card-text>
                       <v-card-actions>
