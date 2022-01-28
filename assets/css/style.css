@@ -19,6 +19,8 @@ a {text-decoration: none;}
 .shadow .v-timeline-item__dot{box-shadow: 0 0 24px rgb(0 196 115 / 60%);}
 .shadowNo .v-timeline-item__dot{box-shadow: none; }
 
+.qnaSet .v-text-field__details{display: none;}
+
 @media (min-width: 605px){
   .sMargin {margin-top: 70px;}
   .PromotionTitle {padding: 80px 0 40px;}

@@ -52,14 +52,6 @@
         </v-col>
       </v-row>
     </v-container>
-
-    <v-container fluid class="pa-0">
-      <v-row>
-        <v-col class="pa-0">
-          <Footer />
-        </v-col>
-      </v-row>
-    </v-container>
   </div>
 
 </template>
